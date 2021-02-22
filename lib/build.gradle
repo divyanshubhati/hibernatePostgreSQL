@@ -33,4 +33,12 @@ dependencies {
     // Adding postgres driver dependency
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.18'
 
+    // Add second level caching
+
+    // https://mvnrepository.com/artifact/net.sf.ehcache/ehcache
+    implementation group: 'net.sf.ehcache', name: 'ehcache', version: '2.10.6'
+
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-ehcache
+    implementation group: 'org.hibernate', name: 'hibernate-ehcache', version: '4.1.6.Final'
+
 }

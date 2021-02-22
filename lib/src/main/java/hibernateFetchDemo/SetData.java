@@ -54,6 +54,7 @@ public class SetData {
         session.save(artist);
 
         tx.commit();
+        session.close();
 
     }
 }

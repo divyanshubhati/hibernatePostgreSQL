@@ -30,6 +30,7 @@ public class Launcher {
         System.out.println(album.getArtist().getName());
 
         tx.commit();
+        session.close();
 
     }
 }
